@@ -20,6 +20,8 @@
 	import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
 	import { storePopup } from '@skeletonlabs/skeleton';
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
-</script>
 
+</script>
+<nav> <a href="/">Hem</a> </nav>
+<nav> <a href="/photoapp">Photo App</a> </nav>
 <slot />

@@ -1,6 +1,7 @@
 
 <!--Delar upp sidan i två delar-->
 <main>
+  
   <div>
 
     <h1 class="name"> Eli Sandberg Hellström </h1>
