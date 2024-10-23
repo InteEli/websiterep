@@ -1,6 +1,6 @@
 <script>
 	import '../app.postcss';
-
+	import { base } from '$app/paths';
 	// Highlight JS
 	import hljs from 'highlight.js/lib/core';
 	import 'highlight.js/styles/github-dark.css';
@@ -22,6 +22,10 @@
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 
 </script>
-<nav> <a href="/">Hem</a> </nav>
-<nav> <a href="/photoapp">Photo App</a> </nav>
+
+<nav> 
+<a href="{base}/">Home</a>
+<a href="{base}/photoapp">Photo App</a>
+</nav>
+
 <slot />
