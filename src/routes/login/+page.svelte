@@ -1,7 +1,7 @@
 <script>
     import {users_store} from "$lib/user";
     import { onMount } from 'svelte';
-
+	import { base } from '$app/paths';
     let users = [];
 
     onMount(() => {
