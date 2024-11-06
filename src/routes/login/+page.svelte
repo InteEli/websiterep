@@ -11,7 +11,6 @@
         users = JSON.parse($users_store);
         }
     });
-    let color = "black"
     let userName = ""
     let password = ""
     function handleSubmit(){
