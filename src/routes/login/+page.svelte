@@ -1,5 +1,4 @@
 <script>
-    import { base } from '$app/paths';
     import {users_store} from "$lib/user";
     import { onMount } from 'svelte';
 
