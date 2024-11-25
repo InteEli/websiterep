@@ -28,6 +28,7 @@
 <a href="{base}/photoapp">Photo App</a>
 <a href="{base}/register">Register</a>
 <a href="{base}/login">Inloggning</a>
+<a href="{base}/shoppinglist">Shopping List</a>
 </nav>
 
 <slot />
