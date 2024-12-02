@@ -29,6 +29,8 @@
 <a href="{base}/register">Register</a>
 <a href="{base}/login">Inloggning</a>
 <a href="{base}/shoppinglist">Shopping List</a>
+<a href="{base}/memory">Memory</a>
+<a href="{base}/chat">Chat Bot</a>
 </nav>
 
 <slot />

@@ -19,7 +19,6 @@ function moveItem(vara){
     else if (typeVara === "köpt"){
         varor[varor.indexOf(vara)].type = "köpa"
         varor[varor.indexOf(vara)].order = getMaxOrder()+1
-
     }
 }
 function removeItem(vara){
@@ -78,7 +77,8 @@ function changeOrderLower(vara){
 
 </script>
 
-<main class = container>
+<main>
+<div class = container>
 <h1>Shopping List</h1>
 
 <div class = catagories_container>
@@ -117,12 +117,24 @@ function changeOrderLower(vara){
     <input type="submit" value="Lägg till ny vara">
 </form>
 </div>
+</div>
 </main>
 
 
 
 <style>
-    
+main{
+    display: flex;
+    background-image: url(https://www.ece.com/fileadmin/media/E1_Shopping/Shopping_Center_Slider_LOOM_Bielefeld_1920x1080.jpg);
+        background-size: cover;
+        min-height: 550px;
+        width: 100%;
+        height: 100%;
+        padding: 5%;
+    justify-content: center;
+    align-content: center;
+    }  
+
 .container{
     display: grid;
     grid-template-rows: 1fr 9fr 1fr;     
@@ -130,13 +142,14 @@ function changeOrderLower(vara){
     width: 60vw;
     height: 70vh;
     border-radius: 20px;
-    
+    justify-content: center;
+    align-content: center;
 }
 .catagories_container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 10px;
-    background-color: rgba(199, 36, 71, 0.758);
+    background-color: rgba(199, 36, 71, 1);
     height: 100%;
     
 }    
