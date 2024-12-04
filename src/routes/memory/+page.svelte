@@ -104,6 +104,7 @@
 <style>
 main{
     display: flex;
+    z-index: -1;
     background-image: url(https://i.ytimg.com/vi/R1cpC1c-F0Q/maxresdefault.jpg);
         background-size: cover;
         min-height: 550px;
@@ -160,6 +161,7 @@ aside{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
   }
 
   p{
@@ -168,10 +170,11 @@ aside{
   .blue{
     background-color: blue;
     left: 10px;
+    
   }
   .turn{
     box-shadow: 0 0 10px 10px yellowgreen;
-    z-index: -1;
+    z-index: 0;
   }
   .restart{
     top: 10px;

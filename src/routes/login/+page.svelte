@@ -72,8 +72,6 @@ label{
 input{
     color: rgb(0, 0, 0);
 }
-select{
-    color: rgb(0, 0, 0);
-}       
+ 
 
 </style>
