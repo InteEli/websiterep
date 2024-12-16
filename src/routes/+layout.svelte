@@ -31,6 +31,7 @@
 <a href="{base}/shoppinglist">Shopping List</a>
 <a href="{base}/memory">Memory</a>
 <a href="{base}/chat">Chat Bot</a>
+<a href="{base}/search">Search</a>
 </nav>
 
 <slot />
@@ -42,4 +43,18 @@
   height: 100vh;
   width: 100vw;
 }    
+nav{
+	display: flex;
+	width: 100%;
+	height: 4%;
+	background-color:navy;
+	justify-content: space-around;
+	align-content: center;
+}
+a:hover{
+	align-content: center;
+	justify-content: center;
+	transform: scale(1.1);
+	background-color:midnightblue;
+}
 </style>
