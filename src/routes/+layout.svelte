@@ -46,10 +46,14 @@
 nav{
 	display: flex;
 	width: 100%;
-	height: 4%;
+	height: 30px;
 	background-color:navy;
 	justify-content: space-around;
 	align-content: center;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 100;
 }
 a:hover{
 	align-content: center;
