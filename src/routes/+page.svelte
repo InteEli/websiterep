@@ -25,7 +25,7 @@
 			"The only way to learn a new programming language is by writing programs in it." - <strong>Dennis Ritchie</strong>, creator of the C programming language.
 		</p>
 		<p>
-			"Every great developer you know got there by solving problems they were unqualified to solve until they actually did it." - <span>Patrick McKenzie, software engineer and entrepreneur</span>
+			"Every great developer you know got there by solving problems they were unqualified to solve until they actually did it." - <span class = "quote">Patrick McKenzie, software engineer and entrepreneur</span>
 		</p>
     </div>
 	</div>
@@ -44,7 +44,7 @@
   
 h2{
     color: rgb(255, 165, 0);
-	font-size: 200%;
+	font-size: 170%;
 }
 h3{
     color: #3cb371;
@@ -66,8 +66,13 @@ span {
 		height: 100%;
 		justify-content: center;
 		align-content: center;
-		padding-top: 3em;
+		padding-top: 2.75em;
 	}
+.quote{
+	font-family: sans-serif;
+	font-size: 120%;
+	padding: 0;
+}
 #inspo{
     font-family: courier;
     font-size: 180%;
