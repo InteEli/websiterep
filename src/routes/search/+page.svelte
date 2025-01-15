@@ -20,15 +20,12 @@ let searchedList = [];
         searchedList = []
         $search_store = JSON.stringify(searchedList);
     }
-    function handleSubmit() {
-        navigate(base + '/search/' + search);
-    }
 </script>
 <main>
 <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png" alt="pokemon logo">
-<form on:submit|preventDefault={handleSubmit}>
+<form on:submit|preventDefault={()=> goto(base + '/search/'+search)}>
     <input type="text" placeholder="Sök upp en pokemon" bind:value={search} />
-</form>
+  </form>
 <footer>
 {#each searchedList as searchedItem}
 <a href={ base+"/search/"+searchedItem.name}>{searchedItem.name}</a>
