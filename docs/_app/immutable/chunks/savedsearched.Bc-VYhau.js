@@ -1,0 +1,1 @@
+import{w as s}from"./paths.CUw22TB7.js";const r=(window==null?void 0:window.sessionStorage.getItem("recentlySearched"))??"",t=s(r);t.subscribe(e=>{window==null||window.sessionStorage.setItem("recentlySearched",e)});export{t as s};
