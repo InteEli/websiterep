@@ -20,12 +20,11 @@ let searchedList = [];
         searchedList = []
         $search_store = JSON.stringify(searchedList);
     }
-    let searchornot = base.includes("search") ? "/" : '/search/'
 </script>
 <main>
 <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png" alt="pokemon logo">
 
-<form on:submit|preventDefault={()=> goto(base + searchornot +search)}>
+<form on:submit|preventDefault={()=> goto(base + base.includes("search") ? "/" : '/search/' +search)}>
     <input type="text" placeholder="Sök upp en pokemon" bind:value={search} />
   </form>
 <footer>
