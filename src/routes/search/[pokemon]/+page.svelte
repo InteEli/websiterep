@@ -54,7 +54,7 @@
   <article>
     {#each Object.entries(pokemon.response.sprites) as sprites}
       {#if typeof sprites[1] == "string"}
-      <img src={sprites[1]} />
+      <img src={sprites[1]}/>
       {/if}
     {/each}
   </article>
