@@ -32,6 +32,7 @@
 <a href="{base}/memory">Memory</a>
 <a href="{base}/chat">Chat Bot</a>
 <a href="{base}/search">Search</a>
+<a href="{base}/uxlogin">register2</a>
 </nav>
 
 <slot />
