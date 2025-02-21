@@ -32,7 +32,9 @@
 <a href="{base}/memory">Memory</a>
 <a href="{base}/chat">Chat Bot</a>
 <a href="{base}/search">Search</a>
-<a href="{base}/uxlogin">register2</a>
+<a href="{base}/uxlogin">Register</a>
+<a href="{base}/epicspaceshooter">Epic Space Shooter</a>
+<a href="{base}/TimeLess">Timeless</a>
 </nav>
 
 <slot />

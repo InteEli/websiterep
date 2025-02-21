@@ -281,12 +281,7 @@
         width: 50px;
         overflow: hidden;
         border: 1px solid #000;
-        font-size: large
-npm run build
-git add .
-git commit -m "message" #change message to given task
-git push
-;
+        font-size: large;
     }
     .slot-inner {
         display: block;
