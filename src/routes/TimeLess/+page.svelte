@@ -67,8 +67,8 @@
 </main>
 <aside class = "fullScreenClock" class:hidden={!clockView}>
     <div class = "divClock">
-        <img src={currentClock.image} alt={currentClock.alt} class = "clockImg">
-        <div>
+        <img src={currentClock.image} alt={currentClock.alt} class = "clockImg" style="object-fit: contain;">
+        <div style="object-fit: contain;">
         <h1>{currentClock.name}</h1>
         <h2>{currentClock.info}</h2>
         <h2>{currentClock.price} kr</h2>
