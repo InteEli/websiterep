@@ -320,6 +320,7 @@
     .fullScreenClock{
         width: 90%;
         height: 70%;
+        object-fit: contain;
     }
     }
 </style>
