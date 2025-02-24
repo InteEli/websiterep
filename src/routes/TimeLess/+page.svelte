@@ -67,7 +67,7 @@
 </main>
 <aside class = "fullScreenClock" class:hidden={!clockView}>
     <div class = "divClock">
-        <img src={currentClock.image} alt={currentClock.alt} style="height: 90%; width: 90%; keep-aspect-ratio: 1; margin: 5%;">
+        <img src={currentClock.image} alt={currentClock.alt} class = "clockImg">
         <div>
         <h1>{currentClock.name}</h1>
         <h2>{currentClock.info}</h2>
@@ -140,9 +140,9 @@
         grid-template-columns: repeat(2 , minmax(200px, 1fr));
         grid-gap: 20px;
         padding: 20px;
-        top: 1800px;
+        top: 1200px;
 		width: 100%;
-		height: calc(100% - 2000px);
+		height: calc(50%-1000px);
 		color: white;
 		margin-top: 20px;
 		justify-content: center;
@@ -273,7 +273,7 @@
         justify-content: flex-start;
         top: 10vh;
         right: 5vw;
-        width: 20%;
+        width: 300px;
         height: 80%;
     }
     .cartButton{
@@ -293,5 +293,33 @@
         border-color: black;
         color: black;
         margin: 10px;
+    }
+    @media screen and (min-width: 700px) {
+        span {
+             font-size: 150px;
+        }
+        .clockImg{
+        height: 500px;
+        width: 500px;
+        }
+        }
+@media screen and (max-width: 700px) {
+    span {
+        font-size: 80px;
+        padding-top: 200px;
+    }
+    .clockImg{
+        height: 300px;
+        width: 300px;
+        object-fit: contain;
+    }
+    .cart{
+        top: 8vh;
+        right: 5px;
+    }
+    .fullScreenClock{
+        width: 90%;
+        height: 70%;
+    }
     }
 </style>

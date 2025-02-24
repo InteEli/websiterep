@@ -46,10 +46,21 @@
   height: 100vh;
   width: 100vw;
 }    
+a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+	background-color: navy;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+}
 nav{
 	display: flex;
 	width: 100%;
 	height: 30px;
+	flex-direction: row;
 	background-color:navy;
 	justify-content: space-around;
 	align-content: center;
@@ -64,4 +75,27 @@ a:hover{
 	transform: scale(1.1);
 	background-color:midnightblue;
 }
+
+@media screen and (max-width: 700px) {
+    nav {
+        display: grid;
+		grid-template-rows: repeat(2, 30px);
+        grid-template-columns: repeat(6, 1fr);
+        height: auto;
+        padding: 10px;
+        gap: 10px;
+    }
+    nav a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        background-color: navy;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    nav a:hover {
+        background-color: midnightblue;
+    }}
 </style>
