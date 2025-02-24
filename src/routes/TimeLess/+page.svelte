@@ -226,6 +226,7 @@
         justify-content: center;
         top: 10%;
         left: 5%;
+        object-fit: contain;
     }
     .divClock{
         display: grid;
