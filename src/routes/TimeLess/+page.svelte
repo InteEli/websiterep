@@ -37,6 +37,10 @@
         shoppinglist = shoppinglist;
         calculateTotal();
     }
+    function checkOut(){
+        shoppinglist = [];
+        total = 0;
+    }
     
 </script>
 
@@ -91,7 +95,7 @@
         
     </div>
     <h2>Total: {total} kr</h2>
-    <input type="button" value="To CheckOut" on:click={() => shoppinglist = [], total = 0} class = "inCartButton">
+    <input type="button" value="To CheckOut" on:click={() => checkOut} class = "inCartButton">
     <input type="button" value="Close" on:click={() => shoppingCartActive = false} class = "inCartButton">
 </aside>
 <aside class = "cart">
